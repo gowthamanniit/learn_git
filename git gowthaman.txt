@@ -1,0 +1,71 @@
+download and install git:
+==========================
+https://git-scm.com/downloads
+
+test git working or not:
+=========================
+run-->command-->git
+
+open github.com
+================
+signin and create new repository
+-->code click(green color)
+--> https: choose
+--> copy 
+
+open your project folder in vs code 
+====================================
+
+goto terminal :
+
+d:/yourprojectfolder> git clone paste link
+ex:
+d:/project>git clone https://github.com/gowthamanniit/deploymyhtml.git
+
+see your folder inside --> deployhtml(repositry) folder and readme file availabel.
+
+====================
+move html file into deployhtml folder(i.e readme file location)
+filename must be index.html
+==================
+install liveserver
+===================
+d:/project/repositary folder> git add . or git add A
+
+	first time before commit:
+	=============================
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+ex:
+PS D:\projectgit\deploymyhtml> git config --global user.email "karurgowthaman@gmail.com"
+PS D:\projectgit\deploymyhtml> git config --global user.name "gowthamanniit"
+PS D:\projectgit\deploymyhtml> git commit -m "initial file added"
+
+here: -m is message
+here: deployhtml --> repositary name
+
+d:/../..>git push
+check your github --> files are added or not.
+====================================================
+
+deploy(local to  live)
+======================
+
+github--> goto your repositary--> settings -->pages -->branch:main-->(/root)--> save.
+
+click <>code options(2nd line)--> small dot(.) -->details (deploy)-->complete your job -->copy website link --> and paste into browser.
+
+
+or
+ hexa decimal code
+(ffca29) -->actions options click --> pages-build-deployment
+--> deploy (option) -->  complete your job --> click link.
+
+
+
+
+
+
+
+
+
