@@ -1,0 +1,43 @@
+react project into live:
+========================
+
+step 1 : open your react project
+
+step 2: create new github repositry 
+       (don't tick add readme.md file)
+step 3: 
+	npm install gh-pages --save-dev
+	or
+	npm install --save gh-pages
+	or
+	npm intall gh-pages
+
+step 5: 
+	git init
+	git add .
+	git status
+	git commit -m "first commit"
+	git branch -M main
+	git remote add origin https://github.com/gowthamanniit/reactlivetest.git
+	git push -u origin main
+step 6:
+	open package.json
+
+	line 2:
+	"homepage": "https://gowthamanniit.github.io/reactlivetest",
+	
+	add 2 lines in scripts:
+	"predeploy": "npm run build",
+	"deploy": "gh-pages -d build"
+step 7:
+	vs code terminal:
+	>npm run deploy
+	.......
+	we can see published output
+step 8:
+	2 to 3 mins wait	
+	reload your github pages.
+	https://gowthamanniit.github.io/reactlivetest
+
+	
+	
