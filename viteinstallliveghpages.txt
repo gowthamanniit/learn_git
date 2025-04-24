@@ -1,0 +1,43 @@
+vite installation: 
+folder> npm create vite appname
+ex:
+	npm create vite myapp
+	or
+	npm create vite . (current folder)
+
+select react
+
+select javascript
+
+folder>cd appname
+folder/appname> npm install
+folder/appname> npm run dev
+=======================
+github live:
+"homepage" : "https://username.github.io/yourrepositary",
+
+"predeploy": "npm run build",
+"deploy": "gh-pages -d dist",
+
+=======================
+vite.config.js file
+base : "/yourreposityaryname",
+
+=========================
+npm install gh-pages
+git init
+git add .
+git status
+git commit -m "your message"
+git branch -M main
+git remote add origin https://github.com/gowthamanniit/yourrepositary.git
+git push -u origin main
+
+npm run deploy
+
+2 to 3 mins wait
+
+goto browser:
+
+https://username.github.io/repositary
+
