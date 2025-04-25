@@ -1,0 +1,46 @@
+step 1:
+create node js 
+================
+npm init
+npm install express
+
+index.js
+========
+var exp=require("express")
+var app=exp()
+const port=process.env.PORT || 6789     // must important
+app.get("/",(req,res)=>{
+    res.send("deploy node appliation successful")
+})
+app.listen(port,()=>{
+    console.log(`Port listening at ${port}`)
+})
+
+step 2
+add .gitignore file ===> \node_moduels
+
+step 3:
+create new github repositary
+don't tick add readme file
+
+step 4
+  git init
+  git add .
+  git status
+  git commit -m "first commit"
+  git branch -M main
+  git remote add origin https://github.com/gowthamanniit/summa8.git
+  git push -u origin main
+step 5:
+  https://render.com
+  sign in
+  choose github signup
+  .....
+  verify you email
+  select : web services
+  .....
+  start command: node index.js
+  deploy
+  
+
+  
