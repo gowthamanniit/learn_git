@@ -22,7 +22,7 @@ step 5:
 
 		note: if found error:  remote origin already exists
                                     :  git remote rm orign
-				    : git remote add origin git@github.com:username/myapp.git
+				    
 				
 	git push -u origin main
 step 6:
