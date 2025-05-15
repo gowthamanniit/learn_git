@@ -21,7 +21,7 @@ step 5:
 	git remote add origin https://github.com/gowthamanniit/reactlivetest.git
 
 		note: if found error:  remote origin already exists
-                                    :  git remote rm orign
+                                    :  git remote rm origin
 				    
 				
 	git push -u origin main
