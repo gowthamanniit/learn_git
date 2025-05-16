@@ -1,0 +1,113 @@
+mongoose + atlas mongodb
+==========================
+
+.env
+=====
+MONGO_URL = "mongodb+srv://gowthaman:FxTdAzfG5gGMIuA7@gowcluster0.rbillyt.mongodb.net/mern?retryWrites=true&w=majority&appName=gowCluster0"
+
+note: mern is database
+      collection automattically created
+
+note:
+remove double quotes "" in MONGO_URL when facing error:
+mongoparseerror invalid scheme expected connection string to start with mongodb // or mongodb+srv //
+=======================================
+network access(left bottom at atlas) --> edit -->allow (0.0.0.0/0) confirm.
+=================================================================
+add github server and client in one folder
+don't forget to add gitignore (node_modules,.env)
+=================================================================
+note: important : mongoose must be version 8.3.4
+		npm uninstall mongoose
+		npm install mongoose@8.3.4
+	
+
+open package.json in server folder
+scripts:
+"build":"npm i"
+
+==========================
+git add . git commit -m "" git push
+============================
+open : render.com
+signup with github
+new --> web services
+add .git (your repositary)
+branch: main
+root directory: server (default:src)
+
+build command: npm run build
+start command: npm run start ( or  dev) see package-lock.json (scripts options)
+
+choose free 512 mb
+
+add .env file
+
+click deploy button 
+
+your service is live 
+==============================================
+
+https://dhcurd-1.onrender.com
+
+===============client react live==============
+open netlify.com
+signup with github
+do authorize
+=================
+new site
+select reposoitary
+type website name
+branch
+root folder
+build command: npm run dev
+start command: npm run start
+deploy
+=================
+change all http://localhost:8000 into https://dhcurd-1.onrender.com
+in react.
+
+====================
+open netlify
+signup with github
+authorized
+
+goto vs code client folder
+
+>npm run build
+
+we can see dist folder
+
+drag and drop to netlify import project manually
+=====================================
+additional:
+
+before commite:
+
+ensure that added .gitignore --> node_moduels and .env
+===============================================
+
+
+server:
+model folder: UserModel.js
+============================
+import mongoose from "mongoose"
+
+const userSchema = new mongoose.Schema({
+    name:{
+            type:String,
+            required : true
+    },
+
+    email:{
+        type:String,
+        required : true
+    },
+
+    address:{
+    type:String,
+    required : true
+    }
+})
+
+export default mongoose.model("Users",userSchema)
