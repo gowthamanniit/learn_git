@@ -1,0 +1,50 @@
+git maintain multiple branch:
+==============================
+
+step 1:
+	default branch: main (only one)
+
+        create new branch (eg: vig)
+	click -->view all branches
+	      -->new branch(green button)
+step 2:
+	copy git https url (code button - green color)
+	ex:
+	https://github.com/gowthamanniit/summa7.git
+
+step 3:
+	vs code open
+	goto terminal
+	create new folder
+	d:/>md foldername (make dir) ex: md gitwork
+	d:/>cd foldername (change dir)ex: cd gitwork
+	d:/gitwork> git clone https://github.com/gowthamanniit/summa7.git
+step 4:
+	vs code -->file --> open folder -->select gitwork folder
+
+step 5:
+	terminal:
+
+	d:/gitwork>cd summa7
+	d:/gitwork/summa7>git branch
+	. main (. means active branch)
+	vig
+	d:/gitwork/summa7>git switch vig
+
+	d:/gitwork/summa7>npm i(all dependencies installing)
+
+	d:/gitwork/summa7>git add . or git add A
+	d:/gitwork/summa7>git status
+	d:/gitwork/summa7>git commit -m "your message"
+	d:/gitwork/summa7>git push origin vig
+
+step 6:
+	goto github website(your account)
+
+	pull request (compare and merge)
+
+	create pull request
+	compare and merge
+	note: don't conflicit
+step 7:
+	check your main branch whether data added or not.
