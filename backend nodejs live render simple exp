@@ -1,0 +1,56 @@
+backend(nodejs) live using render.com:
+======================================
+
+(512 mb free)
+
+step 1:
+	create empty folder
+	open vs code -->terminal--> npm init
+			        --> npm express
+
+step 2:
+	write simple program
+index.js
+========
+var exp=require("express")
+var app=exp()
+const port=process.env.PORT || 6789     // must important
+app.get("/",(req,res)=>{
+    res.send("deploy node appliation successful")
+})
+app.listen(port,()=>{
+    console.log(`Port listening at ${port}`)
+})
+
+step 3:
+	add .gitignore file : \node_modules
+
+step 5:
+create new github repositary
+don't tick add readme file
+
+step 6
+  git init
+  git add .
+  git status
+  git commit -m "first commit"
+  git branch -M main
+  git remote add origin https://github.com/gowthamanniit/summa8.git
+  git push -u origin main
+
+step 7:
+	www.render.com
+	add new -->web services --> public git repositary
+		--> connet
+	language: node (no changes)
+	branch : main (no changes)
+	region: no changes
+	root dir: no changes (empty)
+	build command: npm i
+	start command: node index.js
+	instance type:free
+	add.env file (if database)
+	deploy web service
+
+	
+	
