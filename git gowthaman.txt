@@ -50,6 +50,7 @@ check your github --> files are added or not.
 
 deploy(local to  live)
 ======================
+filename must be index.html
 
 github--> goto your repositary--> settings -->pages -->branch:main-->(/root)--> save.
 
@@ -60,6 +61,7 @@ or
  hexa decimal code
 (ffca29) -->actions options click --> pages-build-deployment
 --> deploy (option) -->  complete your job --> click link.
+
 
 
 
