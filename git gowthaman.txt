@@ -52,15 +52,17 @@ deploy(local to  live)
 ======================
 filename must be index.html
 
-github--> goto your repositary--> settings -->pages -->branch:main-->(/root)--> save.
+github--> goto your repositary--> settings -->pages -->branch:main-->
+(/root)--> save.
 
-click <>code options(2nd line)--> small dot(.) -->details (deploy)-->complete your job -->copy website link --> and paste into browser.
-
+click <>code options(2nd line)--> small dot(.) -->details (deploy)--
+>complete your job -->copy website link --> and paste into browser.
 
 or
  hexa decimal code
 (ffca29) -->actions options click --> pages-build-deployment
 --> deploy (option) -->  complete your job --> click link.
+
 
 
 
