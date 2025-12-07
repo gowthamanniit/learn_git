@@ -1,0 +1,64 @@
+react installation with git based:
+===================================
+pre request: fist intall node
+	web site:www.nodejs.org
+	
+
+step 1:
+	open github and create repositary 
+	note: don't check readme file.
+step 2:
+	code --> http : copy link
+
+step 3:
+	open cmd propmt or terminal in vs code
+
+	d:\...\....> cd\
+
+	d:\>git clone pastlink
+
+	ex:
+
+	d:\>git clone https://github.com/gowthamanniit/reactrepo.git
+
+	note: check your local disk repositary folder and .git file.
+step 4:
+	In vs code --> file --> open folder -->git folder select
+						(ex: reactrepo)
+
+step 5:
+	d:\>cd reactrepo (if not found)
+	d:\reactrepo>npm install -g create-react-app
+	d:\reactrepo>npx create-react-app . 
+	(all library files - node_modules, package.json... src public)
+	
+	d:\reactrepo>if error web-vitals
+	d:\reactrepo>npm install web-vitals --save-dev
+	d:\reactrepo>npm start
+
+
+========================================
+
+suppose you want to clone repositary another system:
+
+
+open terminal or command prompt:
+d:/>git clone https://........../repositaryname.git
+
+d:/>cd repositary name
+
+d:/repositary or folder name> npm i
+pls check node_modules  -->all the react library installed
+=========================================
+	
+
+
+
+	
+	
+	
+
+
+
+
+
