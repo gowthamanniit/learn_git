@@ -1,0 +1,10 @@
+step 1: create new repository (don't tick add readme file)
+step 2: goto vs code --> new terminal(ctrl+shift+~)
+step 3: git init
+step 4: git add .
+step 5: git status
+step 6: git commit -m "your message"
+step 7: git branch -M main
+step 8: git remote add origin https://github.com/gowthamanniit/reactrouternmvn.git
+step 9: git push -u origin main
+step 10: git website --> refresh
