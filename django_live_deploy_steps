@@ -1,0 +1,50 @@
+step 1: create repository in github
+step 2: open your django project folder in cmd
+	ex:c:/.../.../scripts/deploydjango>
+
+step 3: c:/.../.../scripts/deploydjango>git init
+step 4: c:/.../.../scripts/deploydjango>git add .
+step 5: c:/.../.../scripts/deploydjango>git commit -m "first commit"
+
+step 5.1 git branch -M main
+
+step 6: step 3: c:/.../.../scripts/deploydjango>git remote add origin https://github.com/gowthamanniit/deploydjango.git
+
+step 7:git remote -v (no need)
+step 8:git push -u origin main // master
+
+django:changes:
+===============
+see gowthamanniit/deploydjango
+
+setting.py (2 changes)
+
+open render.com
+==============
+login with github
+
+select web service (new)
+
+select public repository 
+
+type your repository
+
+connect
+
+
+language:python 3
+
+branch: main/master
+
+root dir: empty
+
+build command: pip install -r requirements.txt
+
+start command: python manage.py runserver 0.0.0.0:8000
+
+.....
+
+
+
+
+
