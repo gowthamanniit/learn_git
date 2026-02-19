@@ -1,0 +1,15 @@
+steps: nodejs existing project into github
+============================================
+step 1: create repository with readme file on.
+step 2: goto your proect terminal:
+	git init
+	git add . or A
+	git status (optional)
+	git commit -m "your message"
+	git branch (optional to test which branch working)
+	git branch -M main (to change branch)
+	git remote add origin yourrepository.git
+	git push -u origin main
+suppose found error(last command):
+git pull origin main --rebase
+git push origin -u main --force
