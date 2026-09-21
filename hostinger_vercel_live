@@ -1,0 +1,23 @@
+hosting live deploy:
+===================
+
+vercel.com (free no money)
+
+convert dist folder (run run build)
+
+hostinger.com
+
+first purchase domain (www.senthil.com)  3000
+
+purchase hosting : 2000 +1200 (https) 
+
+hpanel.hostinger.com
+
+login with google
+
+left side: websites --> wep apps --> domain select --> zip convert disfolder-->
+..... sample
+...... connect domain
+
+
+
